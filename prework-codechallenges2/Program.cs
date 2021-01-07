@@ -6,7 +6,11 @@ namespace prework_codechallenges2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter 5 numbers between 1-10");
+            numberArrayGame();
+        }
+        static void numberArrayGame()
+        {
+            Console.WriteLine("enter 5 numbers between 1-10, seperated by spaces");
             string userInput = Console.ReadLine();
             string[] userNums = userInput.Split(' ');
             int[] realUserNums = new int[5];
@@ -25,9 +29,9 @@ namespace prework_codechallenges2
                 if (userChoice == num)
                 {
                     score++;
-                    Console.WriteLine(userChoice * score);
                 }
             }
+            Console.WriteLine("That number scored: {0}", userChoice * score);
             Console.ReadLine();
         }
     }

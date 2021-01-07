@@ -20,11 +20,15 @@ namespace prework_codechallenges2
             int userChoice = int.Parse(Console.ReadLine());
 
             int score = 0;
-            foreach (var item in collection)
+            foreach (int num in realUserNums)
             {
-
+                if (userChoice == num)
+                {
+                    score++;
+                    Console.WriteLine(userChoice * score);
+                }
             }
-            if (userChoice == realUserNums[i]) ;
+            Console.ReadLine();
         }
     }
 }

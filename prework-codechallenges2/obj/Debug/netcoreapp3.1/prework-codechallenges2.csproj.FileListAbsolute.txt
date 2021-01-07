@@ -1,0 +1,13 @@
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.exe
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.deps.json
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.runtimeconfig.json
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.runtimeconfig.dev.json
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.dll
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\bin\Debug\netcoreapp3.1\prework-codechallenges2.pdb
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.csprojAssemblyReference.cache
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.AssemblyInfoInputs.cache
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.AssemblyInfo.cs
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.csproj.CoreCompileInputs.cache
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.dll
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.pdb
+C:\Users\valde\source\repos\prework-codechallenges2\prework-codechallenges2\obj\Debug\netcoreapp3.1\prework-codechallenges2.genruntimeconfig.cache

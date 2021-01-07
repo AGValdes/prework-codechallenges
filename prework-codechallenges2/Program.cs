@@ -6,7 +6,8 @@ namespace prework_codechallenges2
     {
         static void Main(string[] args)
         {
-            numberArrayGame();
+            //numberArrayGame();
+            leapYearCalculator();
         }
         static void numberArrayGame()
         {
@@ -33,6 +34,19 @@ namespace prework_codechallenges2
             }
             Console.WriteLine("That number scored: {0}", userChoice * score);
             Console.ReadLine();
+        }
+        static void leapYearCalculator()
+        {
+            Console.WriteLine("Please enter a year...");
+            int userYear = int.Parse(Console.ReadLine());
+            if (userYear % 4 == 0 && (userYear % 100 != 0 || userYear % 400 == 0))
+                {
+                    Console.WriteLine("That is a Leap Year!")
+                }
+            else
+            {
+                Console.WriteLine("Not a Leap Year!");
+            }
         }
     }
 }

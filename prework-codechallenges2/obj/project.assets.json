@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valde\\source\\repos\\prework-codechallenges2\\prework-codechallenges2\\prework-codechallenges2.csproj",
+      "projectUniqueName": "C:\\Users\\valde\\Source\\Repos\\prework-codechallenges3\\prework-codechallenges2\\prework-codechallenges2.csproj",
       "projectName": "prework-codechallenges2",
-      "projectPath": "C:\\Users\\valde\\source\\repos\\prework-codechallenges2\\prework-codechallenges2\\prework-codechallenges2.csproj",
+      "projectPath": "C:\\Users\\valde\\Source\\Repos\\prework-codechallenges3\\prework-codechallenges2\\prework-codechallenges2.csproj",
       "packagesPath": "C:\\Users\\valde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valde\\source\\repos\\prework-codechallenges2\\prework-codechallenges2\\obj\\",
+      "outputPath": "C:\\Users\\valde\\Source\\Repos\\prework-codechallenges3\\prework-codechallenges2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\valde\\AppData\\Roaming\\NuGet\\NuGet.Config",

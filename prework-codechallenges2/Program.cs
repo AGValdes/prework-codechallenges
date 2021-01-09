@@ -9,7 +9,8 @@ namespace prework_codechallenges2
             int[] someArray = new int[] { 1,2,3 };
             //numberArrayGame();
             //leapYearCalculator();
-            perfectSequence(someArray);
+            //perfectSequence(someArray);
+            sumOfRows();
         }
         static void numberArrayGame()
         {
@@ -75,7 +76,19 @@ namespace prework_codechallenges2
         }
         static void sumOfRows()
         {
-
+            int m = 0;
+            int n = 0;
+            Console.WriteLine("Please Enter Any Number of Arrays of Integers of Any Length, Seperating each number with a space and each group by a comma with no fololowing space");
+            string rawUserInput = Console.ReadLine();
+            string[] outterArray = rawUserInput.Split(',');
+       
+            
+            for (int i = 0; i < outterArray.Length; i++)
+            {
+                string[] innerArray = outterArray[i].Split(' ');
+                Console.WriteLine(innerArray[i]);
+           
+            }
         }
     }
 }

@@ -73,5 +73,9 @@ namespace prework_codechallenges2
                 }
             
         }
+        static void sumOfRows()
+        {
+
+        }
     }
 }

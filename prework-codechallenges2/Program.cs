@@ -7,10 +7,10 @@ namespace prework_codechallenges2
         static void Main(string[] args)
         { 
             int[] someArray = new int[] { 1,2,3 };
-            //numberArrayGame();
-            //leapYearCalculator();
-            //perfectSequence(someArray);
-            sumOfRows();
+            numberArrayGame();
+            leapYearCalculator();
+            perfectSequence(someArray);
+            sumOfRows(); 
         }
         static void numberArrayGame()
         {
@@ -74,21 +74,36 @@ namespace prework_codechallenges2
                 }
             
         }
-        static void sumOfRows()
+        static int[] sumOfRows()
         {
-            int m = 0;
-            int n = 0;
-            Console.WriteLine("Please Enter Any Number of Arrays of Integers of Any Length, Seperating each number with a space and each group by a comma with no fololowing space");
-            string rawUserInput = Console.ReadLine();
-            string[] outterArray = rawUserInput.Split(',');
-       
+
+            //couldn't quite figure out how to do it with user input :(
+            /*int m = 0;
+             int n = 0;
+             Console.WriteLine("Please Enter Any Number of Arrays of Integers of Any Length, Seperating each number with a space and each group by a comma with no fololowing space");
+             string rawUserInput = Console.ReadLine();
+             string[] outterArray = rawUserInput.Split(',');
+
+
+             for (int i = 0; i < outterArray.Length; i++)
+             {
+                 string[] innerArray = outterArray[i].Split(' ');
+                 Console.WriteLine(innerArray[i]);*/
             
-            for (int i = 0; i < outterArray.Length; i++)
+
+            int[,] multiArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+            int[] singleArray = new int[multiArray.GetLength(0)];
+            for (int i = 0; i < multiArray.GetLength(0); i++)
             {
-                string[] innerArray = outterArray[i].Split(' ');
-                Console.WriteLine(innerArray[i]);
-           
+                for (int j = 0; j < multiArray.GetLength(1); j++)
+                {
+                    singleArray[i] += multiArray[i, j];
+                }
+            }
+            Console.WriteLine($"[{string.Join(", ", singleArray)}]");
+            return singleArray;
+
             }
         }
     }
-}
+

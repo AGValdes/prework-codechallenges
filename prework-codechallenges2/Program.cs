@@ -6,10 +6,10 @@ namespace prework_codechallenges2
     {
         static void Main(string[] args)
         { 
-            int[] someArray = new int[] { 1,2,3 };
+           /* int[] someArray = new int[] { 1,2,3 };
             numberArrayGame();
             leapYearCalculator();
-            perfectSequence(someArray);
+            perfectSequence(someArray);*/
             sumOfRows(); 
         }
         static void numberArrayGame()

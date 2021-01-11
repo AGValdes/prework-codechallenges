@@ -21,3 +21,4 @@ Given an array, return “Yes” if the sequence is considered a perfect sequence. O
 ##Problem 4: Sum of Rows
 ###Problem Statement
 Given a matrix of integers. Return the sum of each row in a single dimensional array.
+![Output](./imgs/problem4.png)
